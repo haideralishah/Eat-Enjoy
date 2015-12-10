@@ -1,0 +1,271 @@
+/* Empty. Add your own CSS if you like */
+
+/*
+ion-pane{
+  background-color: #2f2b18;
+
+}*/
+/*.mainbody{
+  background-color: #2f2b18 !important;
+  color: #ffffff;
+}*/
+
+
+
+/*styling for cookByRecipe*/
+
+.bgClass{
+  background-image: url("../img/BG.jpg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.recipeList{
+  margin-top: 7%!important;
+}
+.fontColorForHeading{
+  color: #ffc900 !important;
+  font-weight: bold!important;
+}
+.fontColorForPara{
+  color: #ff0098 !important;
+}
+
+.cookByRecipelist{
+  background-color: rgba(104,0,62,0.3) !important;
+  color: #ff0098 !important;
+  border: none !important;
+}
+
+
+/*styling for cookByRecipe*/
+
+
+/*styling for cookByIngr*/
+
+.chips{
+
+  border-radius: 1em;
+  background-color: rgba(104,0,62,0.3) !important;
+  display: inline-block!important;
+  height: 80%!important;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 2%;
+  font-size: 70%!important;
+
+}
+.chipsButton{
+  /*border-radius: 20% !important;*/
+
+  border-top-right-radius: 1em!important;
+  border-bottom-right-radius: 1em!important;
+
+}
+
+
+.cookByIngrPadding{
+  padding-left: 10%;
+}
+
+.ingrdBack{
+  background-color: transparent !important;
+  color: #ff0098 !important;
+  border: none !important;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 125% !important;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 10%;
+}
+
+input[type="search"]{
+  /*background: transparent !important;*/
+  width: 100%!important;
+  background-color: rgba(104,0,62,0.3)!important;
+  color: #ff0098 !important;
+  font-size: 150%!important;
+  font-weight: bold!important;
+  padding-left: 5%;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #68003e!important;
+  font-size: 100%!important;
+
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #68003e!important;
+  opacity:  1!important;
+  font-size: 100%!important;
+
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #68003e!important;
+  opacity:  1!important;
+  font-size: 100%!important;
+
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #68003e!important;
+  font-size: 100%!important;
+
+}
+
+ion-header-bar.bar{
+  /*background: transparent !important;*/
+ /* background-color: rgba(104,0,62,0.3) !important;*/
+  color: #ff0098 !important;
+}
+
+.bgForListOfIngrd{
+ /* padding-left: 10%;*/
+  /*color: #ff0098 !important;*/
+  background-color: rgba(104,0,62,0.3) !important;
+  border: none !important;
+}
+
+/*styling for cookByIngr*/
+
+
+
+
+/*styling for selected recipe*/
+.recipeImg {
+  width: 100%;
+}
+h1.recipeHeading{
+  text-align: center;
+}
+li.recipeInline{
+  /*display: inline;*/
+  font-size: 150%;
+  /*margin-left: 1em;*/
+ /* margin-right: 1em;*/
+  line-height: 2em;
+}
+ul.recipeUl{
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #ff0098 !important;
+  font-weight: bold;
+  /*margin-bottom: 10%;*/
+  background-color: rgba(104,0,62,0.3) !important;
+  width: 70%!important;
+  /*margin: 0 auto !important;*/
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.recipePara{
+  /*margin-top: 10%;*/
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+  font-size: 160%;
+  line-height: 1.5em;
+  color: #ff0098 !important;
+  font-style: italic;
+  font-weight: bold;
+  background-color: rgba(104,0,62,0.3) !important;
+  width: 90%!important;
+  margin: 0 auto !important;
+}
+
+.backForRecipe{
+ /* background-color: rgba(104,0,62,0.3) !important;*/
+
+}
+
+.hedingForIngrdAndRecipe{
+  text-align: center !important;
+  background-color: rgba(104,0,62,0.6) !important;
+  color: #ffc900 !important;
+  border-radius: 1em !important;
+  width: 70%;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+}
+
+/*styling for selected recipe*/
+
+
+/*styling for home*/
+
+.verAlign {
+  /*margin: auto!important;
+  position: absolute!important;
+  top: 0; left: 0; bottom: 0; right: 0!important;*/
+/*
+  position: absolute !important;
+  top: 70%!important;*/
+
+}
+
+
+.buttonForHome{
+
+  color: #ff0098 !important;
+  background-color: rgba(104,0,62,0.4) !important;
+    font-size: 300%;
+    font-weight: bolder;
+
+    width: 100% !important;
+    margin-top: 10% !important;
+    border-radius: 1em;
+
+
+
+
+}
+.ButtonDivForHome{
+
+  width: 80% !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+
+
+}
+
+
+
+
+/*styling for home*/
+
+
+/*styling for credits*/
+.credits{
+  background-color: rgba(104,0,62,0.4) !important;
+
+  width: 90%!important;
+
+  /*margin: 0 auto!important;*/
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+
+}
+.creditsIndiv{
+ /* margin-top: 5% !important;
+  margin-bottom: 5% !important;*/
+}
+.creditHeading{
+  color: #ffc900!important;
+}
+
+/*styling for credits*/

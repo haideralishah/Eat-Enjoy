@@ -1,0 +1,28 @@
+<ion-view view-title="You May Cook" hide-back-button="false" class="bgClass">
+
+
+  <ion-content class="mainbody">
+    <div class="ingrdBack">
+    <ion-list class="mainbody">
+    <!--  <span>{{canCookStuf}}</span>
+      <span>{{selectedIngr}}</span>
+-->
+      <div class="recipeList">
+      <a class="item item-thumbnail-left cookByRecipelist" href="#" ng-repeat="recip in canCookStuf" ui-sref="recipe({ partyID: $index })">
+        <img ng-src="{{recip.dishImg}}">
+        <h2 class="fontColorForHeading">{{recip.dish}}</h2>
+        <!--<p class="fontColorForPara">{{recip.category}}</p>-->
+        <p class="fontColorForPara">{{recip.dishTime}} Minutes</p>
+        <p class="fontColorForPara">Available ingredients {{recip.matchingIngrd}}</p>
+        <p class="fontColorForPara">Total ingredients{{recip.ingrd.length}}</p>
+      </a>
+
+</div>
+
+
+    </ion-list>
+    </div>
+  </ion-content>
+
+</ion-view>
+

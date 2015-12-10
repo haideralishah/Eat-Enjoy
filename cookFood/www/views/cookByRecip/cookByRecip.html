@@ -1,0 +1,34 @@
+<ion-view view-title="Recipies To Cook" hide-back-button="true" class="display bgClass">
+
+
+
+  <!--<ion-header-bar class="bar bar-subheader">
+    <label>
+      <input type="search" placeholder="Ingredients" ng-model="searchRecip" class="bgBlack searchTop">
+    </label>
+  </ion-header-bar>-->
+
+
+  <ion-content class="mainbody">
+    <label>
+      <input type="search" placeholder="Ingredients" ng-model="searchRecip" class="bgBlack">
+    </label>
+    <div class="ingrdBack">
+    <ion-list class="mainbody">
+<div class="recipeList">
+        <a class="item item-thumbnail-left cookByRecipelist" href="#" ng-repeat="recip in recipeDetails | filter:searchRecip" ui-sref="recipeByRecipeSelection({ recepID: $index })">
+          <img ng-src="{{recip.dishImg}}">
+          <h2 class="fontColorForHeading">{{recip.dish}}</h2>
+          <p class="fontColorForPara">{{recip.category}}</p>
+          <p class="fontColorForPara">{{recip.dishTime}} Minutes</p>
+        </a>
+
+</div>
+
+
+    </ion-list>
+    </div>
+  </ion-content>
+
+</ion-view>
+

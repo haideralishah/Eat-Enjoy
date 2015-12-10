@@ -1,0 +1,26 @@
+<ion-view view-title="Cook, Eat & Enjoy" hide-back-button="true" class="bgClass">
+
+  <ion-nav-buttons side="primary">
+    <button class="button button-large" ng-click="goToHome()">Home</button>
+  </ion-nav-buttons>
+
+
+  <ion-content class="mainbody">
+    <img class="recipeImg" ng-src="{{recipeToShow.dishImg}}">
+    <div class="backForRecipe">
+    <h1 class="recipeHeading fontColorForPara">{{recipeToShow.dish}}</h1>
+      <h3 class="hedingForIngrdAndRecipe">Ingredients</h3>
+    <ul class="recipeUl">
+      <li class="recipeInline" ng-repeat="ingrFi in recipeToShow.ingrnQty">{{ingrFi}}</li>
+    </ul>
+
+    <h3 class="hedingForIngrdAndRecipe">Recipe</h3>
+    <p class="recipePara fontColorForPara">{{recipeToShow.Recipe}}</p>
+
+    </div>
+  </ion-content>
+
+
+
+</ion-view>
+

@@ -1,0 +1,41 @@
+<ion-view view-title="Ingredients Selection" hide-back-button="true" class="bgClass">
+
+  <ion-nav-buttons side="primary">
+    <button class="button button-large" ng-hide="" ng-click="checkTheMeal()">Check The Meal</button>
+  </ion-nav-buttons>
+
+ <!-- <ion-header-bar class="bar bar-subheader">
+    &lt;!&ndash;<label class="SearchForm">
+      <input class="SearchForm" type="search" placeholder="Ingredients" ng-model="searchIngr">
+    </label>&ndash;&gt;
+
+  </ion-header-bar>-->
+
+  <ion-content class="mainbody ">
+    <label class="SearchForm">
+      <input class="SearchForm" type="search" placeholder="Ingredients" ng-model="searchIngr">
+    </label>
+    <div class="ingrdBack">
+    <ion-list class="mainbody ingrdBack">
+
+
+
+      <span ng-repeat="selectedIngr in selectedIngr" class="chips">{{selectedIngr}}
+        <button class="button button-small button-positive chipsButton" ng-click="removeFromSelectedList(selectedIngr);">
+         X
+        </button>
+      </span>
+
+      <div class="bgForListOfIngrd " ng-repeat="ingr in allIngr | filter:searchIngr | orderBy:ingr">
+        <div class="item item-text-wrap cookByIngrPadding ingrdBack" ng-click="select(ingr)">
+          {{ingr}}
+        </div>
+      </div>
+
+
+    </ion-list>
+    </div>
+  </ion-content>
+
+</ion-view>
+
